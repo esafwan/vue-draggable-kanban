@@ -1,0 +1,68 @@
+/* General Styles for the Kanban Board */
+.container {
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 20px;
+  background-color: #f0f2f5;
+  min-height: 100vh; /* Set the minimum height to 100% of the viewport height */
+}
+
+
+/* Column Styling */
+.card {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 0 10px;
+  min-width: 300px;
+  border-radius: 8px;
+  padding: 20px;
+  min-height: calc(100vh - 90px); /* Subtract vertical paddings/margins if any */
+  padding-bottom: 20px;
+}
+
+/* Card Styling */
+.list-group-item {
+  background-color: #fff3e0; /* Light orange background, like a sticky note */
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  cursor: grab;  
+}
+
+.list-group-item:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Heading Styling */
+h1, h3 {
+  font-weight: bold;
+  color: #333;
+  padding-bottom: 20px;
+}
+span {
+  font-size: 0.9em;
+  color:#a0a0a0;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  height: calc(100vh - 90px); /* Height of the flexible container */
+}
+
+/* Scrollbar Styles for Chrome, Edge, and Safari */
+.container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.container::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background-color: #a0a0a0;
+  border-radius: 10px;
+  border: 2px solid #e0e0e0;
+}
