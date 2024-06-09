@@ -1,6 +1,6 @@
 # Kanban Board Application
 
-This is a simple Kanban board web application built using Vue 3, Vuex, and Vite. It features a draggable interface for managing tasks across multiple columns, styled with Bootstrap 5 and custom CSS to resemble material design with sticky-note styled cards.
+This is a simple Kanban board UI built using Vue 3, Vuex, and Vite. It features a draggable interface for managing tasks across multiple columns, styled with Bootstrap 5 and custom CSS to resemble material design with sticky-note styled cards. This is just for reference and doesn't implement any APIs or handle any advance use cases.
 
 <img width="1357" alt="kanban-vue3" src="https://github.com/esafwan/vue-draggable-kanban/assets/246454/1a95323e-039c-4b68-900f-b25c2f011dfc">
 
